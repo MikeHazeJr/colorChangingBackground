@@ -16,7 +16,6 @@ using System.Threading.Tasks;                                           /*  (Eve
 
 namespace colorChangingBackground
 {                                                                       /*  namespace 'colorChangingBackground' ends here   */
-
     class Program                                                       /*  class 'Program' begins here */
     {
 
@@ -24,7 +23,7 @@ namespace colorChangingBackground
         {   /*  method 'Main' begins here   */
 
             ConsoleColor defaultColor = ConsoleColor.Black;             /*  set default color as a variable of type 'ConsoleColor'                  */
-            ConsoleColor secondColor = ConsoleColor.White;              /*  set second color as a variable  of type 'ConsoleColor'                  */
+            ConsoleColor secondColor = ConsoleColor.Green;              /*  set second color as a variable  of type 'ConsoleColor'                  */
 
             Console.BackgroundColor = defaultColor;                     /*  set console color to 'defaultColor' value                               */
 
